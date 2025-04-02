@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s;
+}
+
+.card {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    transition: background-color 0.3s;
+    flex-direction: column;
+    display: flex;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#btn-oscuro{
+    width: 100px;
+    align-self: center;
+    font-size: small;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.dark-mode .card {
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode input{
+    background-color: #222;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode #btn-submit {
+    background-color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode #btn-submit:hover {
+    background-color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode #btn-oscuro {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    height: 60px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  nav {
+    width: 400px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: black;
+  }

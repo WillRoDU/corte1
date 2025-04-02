@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./proyecto2.css">
+</head>
+<body>
+
+  <header>
+    <h2>Mi Dashboard</h2>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Inicio</a></li>
+        <li><a href="proyecto1.html">Proyecto 1</a></li>
+        <li><a href="proyecto2.html">Proyecto 2</a></li>
+        <li><a href="proyecto3.html">Proyecto 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+        <div class="container">
+            <h1><strong>Clasificador De Enteros</strong></h1>
+                <form action="">
+                    <label for="numero">Por Favor, introduce un numero para verificar si es positivo, negativo o es igual a cero</label>
+                    <input type="number" id="numero" name="numero" required>
+                    <button type="button" id="Verificar" onclick="calcularEdad()"><sTRong>Verificar</sTRong></button>
+                    <h2 id="result"></h2>
+                </form>
+        </div>
+    </main>
+    <script src="./proyecto2.js"></script>
+</body>
+</html>
